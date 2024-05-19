@@ -1,0 +1,94 @@
+/* styles.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f2f2f2, #c8e6c9);
+    color: #333;
+}
+
+header {
+    background-color: #388e3c;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header h3 {
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
+nav {
+    text-align: center;
+    margin: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #388e3c;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+nav ul li a:hover {
+    color: #1b5e20;
+    border-bottom: 2px solid #1b5e20;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header h3 {
+        font-size: 1.5em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
