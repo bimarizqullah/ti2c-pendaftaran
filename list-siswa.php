@@ -4,7 +4,7 @@
 <html>
 <head>
     <title>Pendaftaran Siswa Baru | Politeknik Negeri Madiun</title>
-    <link rel="stylesheet" type="text/css" href="styles3.css">
+    <link rel="stylesheet" type="text/css" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
 <body>

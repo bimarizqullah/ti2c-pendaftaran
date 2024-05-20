@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Formulir Pendaftaran Siswa Baru | SMK Coding</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">   
+    <link rel="stylesheet" type="text/css" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">  
 </head>
 
 <body>
