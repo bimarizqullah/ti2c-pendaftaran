@@ -25,7 +25,7 @@ if( mysqli_num_rows($query) < 1 ){
 <html>
 <head>
     <title>Formulir Edit Siswa | Politeknik Negeri Madiun</title>
-    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <link rel="stylesheet" type="text/css" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css"> 
 </head>
 
 <body>
